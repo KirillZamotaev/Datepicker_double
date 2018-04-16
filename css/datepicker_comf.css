@@ -1,0 +1,98 @@
+
+.block, .block *{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.block:before, .block:after{
+	content:"";
+	display:block;
+	height:0px; 
+	width:0px;
+	clear:both;
+}
+.block_bar{
+	max-width:510px;
+    margin-bottom:50px;
+    margin-top:50px; 
+    float:left;
+}
+.block_input_text_wrapper{
+	position:relative;
+	border:1px solid #bbb;
+	float:left;
+}
+.block_input_text_wrapper input[type="text"]{
+	display:block;
+	border:none;
+	padding:5px;
+	height:30px;
+	margin-right:37px;
+	width:auto;
+}
+.date-container__loading {
+    display: inline-block;
+    position: absolute;
+    right: 4em;
+    top: 0px;
+}
+.block_icon_wrapper {
+    display: block;
+    height: 30px;
+    width: 30px;
+    padding: 4px 7px;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    top: 0px;
+}
+.mod_bg_color_gray{
+	background-color:#eee;
+}
+.block_dateperiod{
+	margin:0px;
+	padding:0px;
+	position:relative;
+	float: left;
+}
+.block_icon_wrapper img{
+	width:16px;
+}
+.block_label {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.col-1-2{
+	float:left;
+	width:50%;
+}
+
+.input-group.date-container__date {
+    display: inline-block;
+    border: 1px solid #bbb;
+    padding: 5px;
+    padding-right: 50px;
+    position:relative;
+}
+/*
+.daterangepicker.dropdown-menu .ranges {
+display:none!important;
+}
+*/
+.daterangepicker .calendar {
+display:block;
+}
+.daterange-editor-caption {
+    border: none;
+    font-weight: normal;
+}
+.daterange-editor {
+margin-bottom:0px!important;
+}
+.daterange-editor > a {
+color:#000;
+text-decoration:none;
+border-bottom:none;
+}
+

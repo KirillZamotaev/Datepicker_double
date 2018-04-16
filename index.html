@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='ru'>
+    <head>
+	 <meta charset="utf-8">
+        <link href="css/datepicker.css" rel="stylesheet" type="text/css">
+		<link href="css/datepicker_comf.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery.min.js"></script>
+		 
+        <script src="js/datepicker.js"></script>
+		<script src="js/datepicker_comf.js"></script>
+    </head>
+	<body style="min-height:100vh;">
+		<div class="block block_bar">
+			<div class="col-1-2">
+				<div class="block_dateperiod"> 
+					<label for="period_prev" class="block_label">Предыдущий период</label>
+					<div class="date-container__loading" style="display: none;">
+						<img src="img/loader.gif" width="20" height="20" alt="Загрузка">
+					</div>
+					<div class="block_input_text_wrapper">
+						<input type='text'  class="pseudo" name="period_prev"/> 
+						<input type='text'  style="opacity: 0; visibility: hidden;  padding: 0px;  height: 0px;"	 id="period_prev"  name="period_prev_hidden" class="datepicker-here input_true"   data-position="bottom left" />
+						
+						<label for="period_prev"><span class="block_icon_wrapper mod_bg_color_gray"><img src="img/glyphicons-46-calendar.png" alt="icon_calendar" /></span></label>
+					</div>
+				</div>
+			</div>
+			<div class="col-1-2">
+				<div class="block_dateperiod">	
+					<label for="period_current" class="block_label">Текущий период</label>
+					<div class="date-container__loading" style="display: none;">
+						<img src="img/loader.gif" width="20" height="20" alt="Загрузка">
+					</div>
+					<div class="block_input_text_wrapper">
+					
+						<input type='text'  class="pseudo" name="period_current"/> 
+						<input type='text'  id="period_current"  style="opacity: 0; visibility: hidden;  padding: 0px;  height: 0px;" name="period_current_hidden" class="datepicker-here input_true"  data-position="bottom left" />
+						<label for="period_current"><span class="block_icon_wrapper mod_bg_color_gray"><img src="img/glyphicons-46-calendar.png" alt="icon_calendar" /></span></label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
